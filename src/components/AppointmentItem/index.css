@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.listItems {
+  list-style-type: none;
+  display: flex;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-width: 1px;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+}
+.starBtn {
+  background-color: transparent;
+  border: none;
+  padding-top: 16px;
+}
+
+.titleDate {
+  display: flex;
+  flex-direction: column;
+}
+.titleHeading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.dates {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 14px;
+}

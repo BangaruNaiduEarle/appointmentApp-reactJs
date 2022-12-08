@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.mainBgContainer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #171f46;
+  margin-bottom: 40px;
+}
+.appointmentImg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .appointmentImg {
+    display: block;
+  }
+}
+
+.appointmentBg {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointmentBg {
+    width: 1000px;
+    padding: 50px;
+  }
+}
+.imgContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #b5b7c4;
+}
+.titleInput {
+  border-radius: 3px;
+  height: 30px;
+  padding: 10px;
+  color: #b5b7c4;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  border-color: #b5b7c4;
+  border-style: solid;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 4px 10px 4px 10px;
+  outline: none;
+  border: none;
+}
+.horizontal {
+  color: #b5b7c4;
+  height: 2px;
+
+  margin-top: 20px;
+}
+.appointmentStarred {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.starredBtn {
+  background-color: transparent;
+  border-color: #9897f0;
+  border-radius: 10px;
+  color: #9897f0;
+  outline: none;
+  padding: 3px 6px 3px 6px;
+  border-style: solid;
+  margin-bottom: 5px;
+}
+.unOrderList {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
